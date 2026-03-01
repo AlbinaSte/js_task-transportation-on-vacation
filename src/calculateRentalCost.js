@@ -22,7 +22,8 @@ function calculateRentalCost(days) {
   if (days >= LONG_TERM) {
     amount = COST_PER_DAY * days - LONG_TERM_DISCOUNT;
   }
-
+  
   return amount;
 }
 module.exports = calculateRentalCost;
+
